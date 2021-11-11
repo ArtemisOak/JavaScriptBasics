@@ -33,8 +33,8 @@ console.log(foo, bar);
 	// variables declared with "let" without a problem
 	// and they will only be visible in this new scope
 	let bar = 20;
-	
-    // inside this new scope, I can redeclare variables
+
+	// inside this new scope, I can redeclare variables
 	// declared with "var", but it will overwrite the value I set
 	// in the outer scope.  This is the problem with var, it does not
 	// honor "scope boundaries"

@@ -5,12 +5,12 @@
 }
 
 body {
-	background-color: darkgreen;
-	color: white;
+	background-color: white;
+	color: black;
 }
 
 #game-canvas {
 	width: 800px;
 	height: 600px;
-	border: solid 1px black;
+	border: solid 2px black;
 }
